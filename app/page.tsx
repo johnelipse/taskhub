@@ -12,6 +12,15 @@ export default function Page() {
       <div className='flex lg:px-[6rem] md:px-5 px-4 '>
    <nav className='w-[30%] h-full bg-[rgb(231, 235, 238);] px-5 py-3 fixed lg:block md:hidden hidden left-0 top-[10%]'>
       <AccordionDemo/>
+      <div>
+        <h3 className='mb-4 mt-4 font-bold '>Services at DesisHub</h3>
+        <div>
+          <p className='text-[14px] dark:font-thin'>Web Development</p>
+          <p className='text-[14px] mt-3 dark:font-thin'>Online web development Courses</p>
+          <p className='text-[14px] mt-3 dark:font-thin'>Graphics designing</p>
+          <p className='text-[14px] mt-3 dark:font-thin'>Website hosting</p>
+        </div>
+      </div>
       <div className='bg-green-600 py-3 px-4 rounded-md text-center mt-4'>
         <h3 className='mb-4 text-white text-[1.5rem] text-center'>Try Out Our  Templetes</h3>
         <Link href="/" className='bg-black text-white py-2 px-4 md:px-3 rounded-md '>Try Templetes</Link>

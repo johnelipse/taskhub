@@ -8,7 +8,7 @@ export default function Assignments() {
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-5'>
         <div className='bg-transparent boxshadow rounded-md w-[100%]'>
         <div>
-            <Link href="/"><Image className='rounded-md h-[50%] w-[100%]' width={1200} height={630} src="/banner.webp" alt="loading" /></Link>
+            <Link href="/full-image"><Image className='rounded-md h-[50%] w-[100%]' width={1200} height={630} src="/banner.webp" alt="loading" /></Link>
         </div>
         <div className='px-2 py-2'>
             <h3 className='font-bold text-[17px]'>Lorem ipsum dolor sit amet</h3>
